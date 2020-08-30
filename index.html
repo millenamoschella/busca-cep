@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+      content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assets/img/icon.png"
+      type="image/x-icon">
+
+    <!-- SCRIPT BOOTSTRAP -->
+    <script defer
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"></script>
+    <script defer
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"></script>
+    <script defer
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"></script>
+
+    <!--CSS BOOTSTRAP -->
+    <link rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous">
+
+    <!-- SCRIPTS -->
+    <script defer src="./assets/js/app.js"></script>
+
+    <!-- ÍCONES -->
+    <link
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <title>Busca CEP</title>
+  </head>
+
+  <body>
+    <main>
+
+      <div class="content">
+
+        <form
+          class="form d-flex flex-column justify-content-center align-items-center formulario"
+          action="#" method="POST">
+
+          <!-- INPUTS DO FORM -->
+          <div class="form-card">
+            <!-- BANNER MAPA -->
+            <div class="banner-mapa mb-4 img-fluid"></div>
+
+            <!-- CEP -->
+            <div class="form-group mb-4">
+
+              <div class="input-group-prepend">
+                <div class="input-group-text icone">
+                  <i class="fa fa-search"></i>
+                </div>
+                <input type="text" id="CEPinput"
+                  maxlength="9" placeholder="cep">
+              </div>
+
+            </div>
+
+            <!-- RUA -->
+            <div class="form-group mb-4">
+
+              <div class="input-group-prepend">
+                <div class="input-group-text icone">
+                  <i class="fa fa-road"></i>
+                </div>
+                <input type="text" id="ruainput" readonly
+                  placeholder="rua">
+              </div>
+
+            </div>
+
+            <!-- NÚMERO -->
+            <div class="form-group mb-4">
+
+              <div class="input-group-prepend">
+                <div class="input-group-text icone">
+                  <i class="fa fa-list-ol"></i>
+                </div>
+                <input type="text" id="numeroinput"
+                  placeholder="número">
+              </div>
+
+
+            </div>
+
+            <!-- COMPLEMENTO -->
+            <div class="form-group mb-4">
+
+              <div class="input-group-prepend">
+                <div class="input-group-text icone">
+                  <i class="fa fa-plus"></i>
+                </div>
+                <input type="text" id="complementoinput"
+                  placeholder="complemento">
+              </div>
+
+            </div>
+
+            <!-- BAIRRO -->
+            <div class="form-group mb-4">
+
+              <div class="input-group-prepend">
+                <div class="input-group-text icone">
+                  <i class="fa fa-home"></i>
+                </div>
+                <input type="text" id="bairroinput" readonly
+                  placeholder="bairro">
+              </div>
+
+            </div>
+
+            <!-- UF -->
+            <div class="form-group mb-4">
+
+              <div class="input-group-prepend">
+                <div class="input-group-text icone">
+                  <i class="fa fa-map-signs"></i>
+                </div>
+                <input type="text" id="UFinput" readonly
+                  placeholder="uf">
+              </div>
+
+            </div>
+
+          </div>
+
+        </form>
+
+      </div>
+
+
+    </main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </body>
+
+</html>
